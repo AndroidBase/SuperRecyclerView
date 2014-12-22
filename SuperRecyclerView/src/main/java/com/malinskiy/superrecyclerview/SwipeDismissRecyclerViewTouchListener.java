@@ -40,7 +40,6 @@ import static com.nineoldandroids.view.ViewPropertyAnimator.animate;
 
 public class SwipeDismissRecyclerViewTouchListener implements View.OnTouchListener {
     public static final int INVALID_POSITION = -1;
-
     // Cached ViewConfiguration and system-wide constant values
     private int  mSlop;
     private int  mMinFlingVelocity;
